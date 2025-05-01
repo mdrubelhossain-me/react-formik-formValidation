@@ -1,5 +1,6 @@
 import React from 'react';
 import Signup from './components/Signup';
+import Signup2 from './components/Signup-2';
 
 const App: React.FC = () => {
   return (
@@ -7,6 +8,8 @@ const App: React.FC = () => {
       <h1>Hello, World!</h1>
 
       <Signup/>
+
+      <Signup2/>
 
 
     </div>
